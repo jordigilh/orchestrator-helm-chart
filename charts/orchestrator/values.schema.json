@@ -844,36 +844,12 @@
                         false
                     ]
                 },
-                "url": {
-                    "type": "string",
-                    "default": "",
-                    "title": "The url Schema",
-                    "examples": [
-                        ""
-                    ]
-                },
                 "namespace": {
                     "type": "string",
                     "default": "",
                     "title": "The namespace Schema",
                     "examples": [
                         "orchestrator-gitops"
-                    ]
-                },
-                "username": {
-                    "type": "string",
-                    "default": "",
-                    "title": "The username Schema",
-                    "examples": [
-                        "admin"
-                    ]
-                },
-                "password": {
-                    "type": "string",
-                    "default": "",
-                    "title": "The password Schema",
-                    "examples": [
-                        ""
                     ]
                 }
             },
@@ -981,10 +957,7 @@
         },
         "argocd": {
             "enabled": false,
-            "url": "",
-            "namespace": "orchestrator-gitops",
-            "username": "admin",
-            "password": ""
+            "namespace": "orchestrator-gitops"
         }
     }]
 }
